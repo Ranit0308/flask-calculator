@@ -1,7 +1,7 @@
 apiVersion: v1
-kind: Deployment
+kind: Service
 metadata:
-  name: test-1/-service
+  name: test-1-service
 spec:
   selector:
     app: test-1
