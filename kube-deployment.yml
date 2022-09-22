@@ -1,5 +1,5 @@
 ---
-apiVersion: app/v1beta2
+apiVersion: app/v1
 kind: Deployment
 metadata:
   name: test-1
