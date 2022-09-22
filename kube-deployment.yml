@@ -16,6 +16,6 @@ spec:
       containers:
       - name: test-1
         image: test-1:latest
-        imagePullPolicy: Always
+        imagePullPolicy: Never
         ports:
         - containerPort: 5000
