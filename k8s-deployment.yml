@@ -17,4 +17,4 @@ spec:
         image: ranit0308/test-1
         imagePullPolicy: Always
         ports:
-        - containerPort: 5000
+        - containerPort: 80
