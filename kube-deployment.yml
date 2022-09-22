@@ -1,5 +1,5 @@
 ---
-apiVersion: app/v1.19
+apiVersion: app/v1
 kind: Deployment
 metadata:
   name: test-1
@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: test-1
-        image: test-1:latest
-        imagePullPolicy: Never
+        image: test-1
+        imagePullPolicy: Always
         ports:
         - containerPort: 5000
