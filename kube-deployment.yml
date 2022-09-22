@@ -1,16 +1,16 @@
 apiVersion: apps/v1beta1
 kind: Deployment
 metadata:
-name: python-deployment
+  name: python-deployment
 spec:
-replicas: 1
+  replicas: 1
 template:
-metadata:
-labels:
-app: python-app
-spec:
-containers:
-– name: test-1
-image: ranit0308/test-1:latest
-ports:
-– containerPort: 8080
+  metadata:
+    labels:
+      app: python-app
+  spec:
+    containers:
+    – name: test-1
+      image: ranit0308/test-1:latest
+      ports:
+      – containerPort: 8080
